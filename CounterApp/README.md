@@ -6,4 +6,4 @@
 
 Here is the link for the live demo
 
- [CounterApp](https://www.linkedin.com/in/muzamil-alii-84352a234/)
+ [CounterApp](https://64f9e2f97bf4e305b1523bd7--papaya-kataifi-ca37a9.netlify.app/)

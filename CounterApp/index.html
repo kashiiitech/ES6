@@ -20,13 +20,34 @@
   }
 }
 
+
+
+.dynamic-circle {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      animation: fadeInAndOut 1s linear forwards;
+    }
+    
+    @keyframes fadeInAndOut {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
   </style>
 
 </head>
 <body>
 
+  
   <!-- Wrapper -->
   <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-black gap-10">
+    <div class="circle"></div>
     <div id="heading" class="text-white font-medium text-[40px]">Increament & Decreament</div>
 
 

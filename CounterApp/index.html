@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <style>
+/* for responsiveness */
+
+@media only screen and (max-width: 600px) {
+  #heading {
+    font-size: 25px;
+  }
+
+  #counter-box{
+    padding: 2rm;
+  }
+}
+
+  </style>
+
+</head>
+<body>
+
+  <!-- Wrapper -->
+  <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-black gap-10">
+    <div id="heading" class="text-white font-medium text-[40px]">Increament & Decreament</div>
+
+
+    <div id="counter-box" class="flex bg-white text-[25px] text-[#344151] rounded-md gap-12 p-7 px-10 min-[370px]:p-4 px-6">
+      <!-- button(-) -->
+      <button onclick="decreament()" class="border-r-2 border-[#bfbfbf] pr-5">
+        <i class="fas fa-minus"></i>
+      </button>
+      <!-- text (0,1,2,3,4) -->
+      <div id="counter" class="font-bold">
+        0
+      </div>
+      <!-- button(+) -->
+      <button onclick="increament()" class="border-l-2 border-[#bfbfbf] pl-5">
+        <i class="fa-solid fa-plus font-bold"></i>
+      </button>
+    </div>
+    <div class="bg-white p-3 rounded absolute bottom-2">
+      <p class="text-blue">Created by <a class="font-bold" href="https://kashiiitech.wordpress.com/">@Kashiiitech</a></p>
+    </div>
+  </div>
+
+
+
+  <script src="index.js"></script>
+</body>
+</html>

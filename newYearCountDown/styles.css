@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+h2 {
+
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.countdown{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  width: 100%;
+}
+
+.countdown div {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  
+}
+
+.days, .hours, .minutes, .seconds {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.countdown div span {
+  margin-left: 20px;
+}
+
+/* developer intro */
+
+.dev-intro{
+
+  color: white;
+  position: absolute;
+  bottom: 0;
+
+  background: blue;
+  padding: 10px;
+  border-radius: 7px;
+
+}
+
+.dev-intro a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
